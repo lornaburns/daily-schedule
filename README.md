@@ -23,7 +23,7 @@ This webpage is responsive on a range of screen sizes. User can add information 
 
 ## Image:
 
-<img src="" alt="daily schedule" width="200"/>
+<img src="https://github.com/lornaburns/daily-schedule/blob/main/assets/screenshot.png?raw=true" alt="daily schedule" width="200"/>
 
 ## Credits:
 H.Mansfield 2022
