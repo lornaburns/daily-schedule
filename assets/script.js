@@ -25,25 +25,23 @@ $(function () {
       $(".currentDay").text(dayjs().format("dddd MM/DD/YYYY"));
       //checks each time-block and compares it to current time to apply class
       $(".time-block").each(function () {
-        var timeBlock = parseInt($(this).attr("id"));
+        var timeBlock = $(this).attr("id");
+        var blockHour = parseInt (timeBlock.substring(0, 2));
+
+        $(this).removeClass("past present future");
+
         if (timeBlock < currentTime) {
           $(this).addClass("past");
-          $(this).removeClass("future");
-          $(this).removeClass("present");
         } else if (timeBlock === currentTime) {
           $(this).addClass("present");
-          $(this).removeClass("future");
-          $(this).removeClass("past");
         } else {
           $(this).addClass("future");
-          $(this).removeClass("present");
-          $(this).removeClass("past");
         }
-
-      });
-    }
-    colorCode();
-  });
-
-
   
+    });
+  }
+    colorCode();
+
+
+
+});

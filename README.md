@@ -14,8 +14,8 @@ Upload index.html and assets folder (contains script and stylesheet) to browser.
 
 ## Links:
 
-- [Webpage]()
-- [Repository]()
+- [Webpage](https://lornaburns.github.io/daily-schedule/)
+- [Repository](https://github.com/lornaburns/daily-schedule)
 
 ## Use:
 
@@ -26,4 +26,7 @@ This webpage is responsive on a range of screen sizes. User can add information 
 <img src="" alt="daily schedule" width="200"/>
 
 ## Credits:
+H.Mansfield 2022
+
+
 
